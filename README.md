@@ -19,3 +19,17 @@ az login
 # Selecione a Subscription que vai usar.
 az account set -S SUBSCRIPTION_NAME
 ```
+Agora, basta seguir o o fluxo de trabalho padrão do terraform
+
+```bash
+terraform init
+terraform plan
+terraform apply
+```
+Após rodar o terraform apply vão aparecer os outputs para adionar:
+
+Domain Name
+Senha do DSRM (Directory Services Restore Mode)
+NetBios
+Usuário Adm
+Senha do Adm
