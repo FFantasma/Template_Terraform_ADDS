@@ -1,6 +1,6 @@
 # Template_Terraform_ADDS
 
-Esse código vai criar os recursos?
+Esse código vai criar os seguintess recursos abaixo:
 
 * Um Resource Group
 * Uma Virtual Network
