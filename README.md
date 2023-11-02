@@ -26,10 +26,10 @@ terraform init
 terraform plan
 terraform apply
 ```
-Após rodar o terraform apply vão aparecer os outputs para adionar:
+Após rodar o terraform apply e depois "yes", vão aparecer os outputs para adicionar:
 
-Domain Name
-Senha do DSRM (Directory Services Restore Mode)
-NetBios
-Usuário Adm
-Senha do Adm
+* Domain Name
+* Senha do DSRM (Directory Services Restore Mode)
+* NetBios
+* Usuário Adm
+* Senha do Adm
