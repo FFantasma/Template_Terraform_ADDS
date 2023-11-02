@@ -3,9 +3,11 @@
 Esse código vai criar os seguintess recursos abaixo:
 
 * Um Resource Group
-* Uma Virtual Network
+* Uma Azure Virtual Network
 * Uma Subnet
-* Um Network Security Group 
+* Um Network Security Group
+* Uma Vnic
+* Um Public IP
 * Uma Azure Virtual Machine com a feature de ADDS instalado e configurado
 
 ## Implantando a infraestrutura
