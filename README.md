@@ -25,8 +25,8 @@ Agora, basta seguir o o fluxo de trabalho padrão do terraform
 
 ```bash
 terraform init
-terraform plan
-terraform apply
+terraform plan -out plano
+terraform apply plano
 ```
 Após rodar o terraform apply e depois "yes", vão aparecer os outputs para adicionar:
 
