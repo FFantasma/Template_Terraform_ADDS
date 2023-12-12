@@ -55,7 +55,7 @@ resource "azurerm_network_interface" "dc01_nic" {
 
 #Install Active Directory on the DC01 VM
 resource "azurerm_virtual_machine_extension" "install_ad" {
-  name = "install_ad"
+  name                 = "install_ad"
   #  resource_group_name  = azurerm_resource_group.main.name
   virtual_machine_id   = azurerm_windows_virtual_machine.dc01.id
   publisher            = "Microsoft.Compute"

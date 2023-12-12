@@ -1,7 +1,7 @@
 variable "resource_group" {
   type        = string
   description = "Resource group name"
-  default     = "RG-LAB-AZ800"
+  default     = "RG-LAB-SC300"
 }
 
 variable "location" {
