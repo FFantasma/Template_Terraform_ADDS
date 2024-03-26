@@ -12,8 +12,8 @@ resource "azurerm_network_security_group" "nsg" {
     protocol                   = "Tcp"
     source_port_range          = "*"
     destination_port_range     = "*"
-    source_address_prefix      = "201.17.120.94"
-    destination_address_prefix = "10.10.1.4"
+    source_address_prefix      = "*"
+    destination_address_prefix = "*"
 
   }
 
